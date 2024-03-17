@@ -4,17 +4,14 @@ public abstract class BaseBinaryTree<TKey, TValue> : IBinaryTree<TKey, TValue> w
 {
     protected INode<TKey, TValue>? _root;
     protected int _count = 0;
-    
-    public INode<TKey, TValue>? GetRoot()
-    {
-        return _root;
-    }
 
     public int Count()
     {
         return _count;
     }
 
+    public abstract void Put(TKey key, TValue value);
+    
     public TValue? GetValueOrNull(TKey key)
     {
         var cur = _root;

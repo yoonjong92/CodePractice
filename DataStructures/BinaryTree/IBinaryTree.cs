@@ -2,7 +2,7 @@ namespace DataStructures.BinaryTree;
 
 public interface IBinaryTree<TKey, TValue> where TKey : IComparable<TKey>
 {
-    INode<TKey,TValue>? GetRoot();
     int Count();
     string DrawTree();
+    void Put(TKey key, TValue value);
 }

@@ -5,7 +5,7 @@ namespace DataStructures.RedBlackTree;
 public class RedBlackTree<TKey, TValue> : BaseBinaryTree<TKey, TValue> where TKey : IComparable<TKey>
 {
     
-    public void Enqueue(TKey key, TValue value)
+    public override void Put(TKey key, TValue value)
     {
         var node = new RbtNode<TKey, TValue>()
         {
