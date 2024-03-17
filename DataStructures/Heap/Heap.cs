@@ -5,7 +5,14 @@ namespace DataStructures.Heap;
 public class Heap<TKey,TValue> : IBinaryTree<TKey, TValue> where TKey : IComparable<TKey>
 {
     private List<(TKey, TValue)> _heap = [];
-
+    private int _desc = 1;
+    
+    public Heap(bool desc = false)
+    {
+        if (desc)
+            _desc = -1;
+    }
+    
     public int Count()
     {
         return _heap.Count;
@@ -53,7 +60,7 @@ public class Heap<TKey,TValue> : IBinaryTree<TKey, TValue> where TKey : ICompara
     {
         while (index > 0)
         {
-            if (_heap[index].Item1.CompareTo(_heap[index / 2].Item1) >= 0)
+            if (_heap[index].Item1.CompareTo(_heap[index / 2].Item1) * _desc >= 0)
                 return;
             (_heap[index], _heap[index / 2]) = (_heap[index / 2], _heap[index]);
             index /= 2;
@@ -69,13 +76,13 @@ public class Heap<TKey,TValue> : IBinaryTree<TKey, TValue> where TKey : ICompara
             
             var minKey = _heap[index * 2].Item1;
             var minI = index * 2;
-            if (_heap.Count > index * 2 + 1 && minKey.CompareTo(_heap[index * 2 + 1].Item1) > 0)
+            if (_heap.Count > index * 2 + 1 && minKey.CompareTo(_heap[index * 2 + 1].Item1) * _desc > 0)
             {
                 minKey = _heap[index * 2 + 1].Item1;
                 minI = index * 2 + 1;
             }
 
-            if (minKey.CompareTo(_heap[index].Item1) >= 0)
+            if (minKey.CompareTo(_heap[index].Item1) * _desc >= 0)
                 return;
             
             (_heap[index], _heap[minI]) = (_heap[minI], _heap[index]);

@@ -3,5 +3,6 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::FE21AE0F-7CF1-4B67-920A-B2D174F99FCF::net8.0::Test.DataStructure.RedBlackTreeTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::FE21AE0F-7CF1-4B67-920A-B2D174F99FCF::net8.0::Test.DataStructure.HeapTest.Test&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::FE21AE0F-7CF1-4B67-920A-B2D174F99FCF::net8.0::Test.DataStructure.HeapTest.DsecTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
