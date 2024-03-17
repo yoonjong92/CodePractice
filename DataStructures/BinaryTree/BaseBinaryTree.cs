@@ -3,12 +3,18 @@ namespace DataStructures.BinaryTree;
 public abstract class BaseBinaryTree<TKey, TValue> : IBinaryTree<TKey, TValue> where TKey : IComparable<TKey>
 {
     protected INode<TKey, TValue>? _root;
+    protected int _count = 0;
     
     public INode<TKey, TValue>? GetRoot()
     {
         return _root;
     }
-    
+
+    public int Count()
+    {
+        return _count;
+    }
+
     public TValue? GetValueOrNull(TKey key)
     {
         var cur = _root;

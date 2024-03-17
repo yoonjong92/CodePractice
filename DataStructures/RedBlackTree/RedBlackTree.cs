@@ -52,6 +52,7 @@ public class RedBlackTree<TKey, TValue> : BaseBinaryTree<TKey, TValue> where TKe
         }
 
         node.Parent = cur;
+        _count++;
         Rearrange(node);
     }
 
