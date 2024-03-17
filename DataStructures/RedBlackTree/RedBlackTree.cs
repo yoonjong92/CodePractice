@@ -1,4 +1,4 @@
-﻿using DataStructures.Tree;
+﻿using DataStructures.BinaryTree;
 
 namespace DataStructures.RedBlackTree;
 

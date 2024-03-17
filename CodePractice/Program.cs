@@ -1,5 +1,6 @@
-﻿using DataStructures;
-using DataStructures.RedBlackTree;
+﻿using DataStructures.RedBlackTree;
+
+namespace CodePractice;
 
 public class Program
 {

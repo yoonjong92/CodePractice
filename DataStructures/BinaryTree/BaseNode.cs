@@ -1,4 +1,4 @@
-namespace DataStructures.Tree;
+namespace DataStructures.BinaryTree;
 
 public abstract class BaseNode<TKey, TValue> : INode<TKey, TValue> where TKey : IComparable<TKey>
 {

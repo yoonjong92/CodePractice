@@ -1,4 +1,6 @@
-namespace DataStructures.Tree;
+using DataStructures.BinaryTree;
+
+namespace DataStructures.RedBlackTree;
 
 public enum NodeColor
 {

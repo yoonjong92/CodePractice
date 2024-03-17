@@ -1,4 +1,4 @@
-namespace DataStructures.Tree;
+namespace DataStructures.BinaryTree;
 
 public interface INode<TKey, TValue> where TKey : IComparable<TKey>
 {
