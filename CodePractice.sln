@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePractice", "CodePractic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{F4F5CF21-9405-4B3A-ADF0-A8D80C045B52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FE21AE0F-7CF1-4B67-920A-B2D174F99FCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{F4F5CF21-9405-4B3A-ADF0-A8D80C045B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F5CF21-9405-4B3A-ADF0-A8D80C045B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F5CF21-9405-4B3A-ADF0-A8D80C045B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE21AE0F-7CF1-4B67-920A-B2D174F99FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE21AE0F-7CF1-4B67-920A-B2D174F99FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE21AE0F-7CF1-4B67-920A-B2D174F99FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE21AE0F-7CF1-4B67-920A-B2D174F99FCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
