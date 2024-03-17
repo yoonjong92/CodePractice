@@ -22,4 +22,9 @@ public abstract class BaseNode<TKey, TValue> : INode<TKey, TValue> where TKey : 
         if (Right == child)
             Right = null;
     }
+
+    public virtual string ToDrawString()
+    {
+        return Key + ":" + Value;
+    }
 }
