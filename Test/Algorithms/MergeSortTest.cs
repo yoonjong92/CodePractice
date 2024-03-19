@@ -2,7 +2,7 @@ using Algorithms.Sort;
 
 namespace Test.Algorithms;
 
-public class QuickSortTest
+public class MergeSortTest
 {
     [Test]
     public void Test()
@@ -10,7 +10,7 @@ public class QuickSortTest
         var list = new List<int>() { 1, 4, 2, 31, 152, 2, 55, 115 };
         var list2 = new List<int>(list);
 
-        list.QuickSort(0, list.Count-1);
+        list.MergeSort(0, list.Count-1);
         list2.Sort();
         for (var i = 0; i < list.Count; i++)
         {
