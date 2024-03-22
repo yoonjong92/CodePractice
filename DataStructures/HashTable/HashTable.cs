@@ -1,6 +1,4 @@
-using System.Net.Http.Headers;
-
-namespace DataStructures;
+namespace DataStructures.HashTable;
 
 public class Data<T>
 {

@@ -1,5 +1,6 @@
 using System.Security.Cryptography.X509Certificates;
 using DataStructures;
+using DataStructures.HashTable;
 
 namespace Test.DataStructure;
 
