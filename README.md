@@ -1,6 +1,7 @@
 # Data Structures
 1. Heap
 2. Red Black Tree
+3. Hash Table
 
 # Algorithms
 1. 중앙값 구하기
